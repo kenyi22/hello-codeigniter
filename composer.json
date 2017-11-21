@@ -1,0 +1,21 @@
+{
+    "name": "kenyi/template-codeigniter",
+    "description": "Hello codeigniter 3",
+    "keywords": ["Codeigniter 3 hello"],
+    "homepage": "https://github.com/kenyi22",
+    "authors": [
+        {
+            "name": "kenyi canchihuaman ango",
+            "email": "kenyica13@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HelloCI\\": "src/Helloci"
+        }
+    },
+    "minimum-stability": "dev"
+}
